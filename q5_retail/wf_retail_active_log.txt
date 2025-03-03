@@ -1,0 +1,25 @@
+2025-03-03 16:08:45 : INFO : (5952 | 3704) : (IS | IS) : node01 : LM_36435 : Starting execution of workflow [wf_retail_active] in folder [Test] last saved by user [Administrator].
+2025-03-03 16:08:45 : INFO : (5952 | 3704) : (IS | IS) : node01 : LM_44206 : Workflow wf_retail_active started with run id [6], run instance name [], run type [Concurrent Run Disabled].
+2025-03-03 16:08:45 : INFO : (5952 | 3704) : (IS | IS) : node01 : LM_44195 : Workflow [wf_retail_active] service level [SLPriority:5,SLDispatchWaitTime:1800].
+2025-03-03 16:08:45 : INFO : (5952 | 3704) : (IS | IS) : node01 : LM_44253 : Workflow started. Clients will be notified
+2025-03-03 16:08:45 : INFO : (5952 | 3704) : (IS | IS) : node01 : LM_36330 : Start task instance [Start]: Execution started.
+2025-03-03 16:08:45 : INFO : (5952 | 3704) : (IS | IS) : node01 : LM_36318 : Start task instance [Start]: Execution succeeded.
+2025-03-03 16:08:45 : INFO : (5952 | 3704) : (IS | IS) : node01 : LM_36505 : Link [Start --> s_m_retail_status]: empty expression string, evaluated to TRUE.
+2025-03-03 16:08:45 : INFO : (5952 | 3704) : (IS | IS) : node01 : LM_36388 : Session task instance [s_m_retail_status] is waiting to be started.
+2025-03-03 16:08:45 : INFO : (5952 | 4704) : (IS | IS) : node01 : LM_36682 : Session task instance [s_m_retail_status]: started a process with pid [8104] on node [node01].
+2025-03-03 16:08:45 : INFO : (5952 | 4704) : (IS | IS) : node01 : LM_36330 : Session task instance [s_m_retail_status]: Execution started.
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Mar 03 16:08:45 2025)]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [DISP_20305 The [Preparer] DTM with process id [8104] is running on node [node01].
+ : (Mon Mar 03 16:08:45 2025)]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [PETL_24036 Beginning the prepare phase for the session.]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6721 Started [Connect to Repository].]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6722 Finished [Connect to Repository].  It took [0.136806] seconds.]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6794 Connected to repository [REP] in domain [Domain] as user [Administrator] in security domain [Native].]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6721 Started [Fetch Session from Repository].]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.0960021] seconds.]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6721 Started [Partition Group Formation].]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6722 Finished [Partition Group Formation].  It took [0.0170021] seconds.]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [PETL_24037 Finished the prepare phase for the session.]
+2025-03-03 16:08:45 : INFO : (5952 | 6160) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_retail_status] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Mar 03 16:08:45 2025)]
+2025-03-03 16:08:46 : INFO : (5952 | 2596) : (IS | IS) : node01 : LM_36318 : Session task instance [s_m_retail_status]: Execution succeeded.
+2025-03-03 16:08:47 : INFO : (5952 | 10504) : (IS | IS) : node01 : LM_36318 : Workflow [wf_retail_active]: Execution succeeded.
