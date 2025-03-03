@@ -1,0 +1,25 @@
+2025-03-03 22:31:01 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_36435 : Starting execution of workflow [wf_agg_retail] in folder [Test] last saved by user [Administrator].
+2025-03-03 22:31:01 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_44206 : Workflow wf_agg_retail started with run id [12], run instance name [], run type [Concurrent Run Disabled].
+2025-03-03 22:31:01 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_44195 : Workflow [wf_agg_retail] service level [SLPriority:5,SLDispatchWaitTime:1800].
+2025-03-03 22:31:01 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_44253 : Workflow started. Clients will be notified
+2025-03-03 22:31:01 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_36330 : Start task instance [Start]: Execution started.
+2025-03-03 22:31:01 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_36318 : Start task instance [Start]: Execution succeeded.
+2025-03-03 22:31:01 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_36505 : Link [Start --> s_m_agg_retail]: empty expression string, evaluated to TRUE.
+2025-03-03 22:31:01 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_36388 : Session task instance [s_m_agg_retail] is waiting to be started.
+2025-03-03 22:31:01 : INFO : (7540 | 11928) : (IS | IS) : node01 : LM_36682 : Session task instance [s_m_agg_retail]: started a process with pid [4320] on node [node01].
+2025-03-03 22:31:01 : INFO : (7540 | 11928) : (IS | IS) : node01 : LM_36330 : Session task instance [s_m_agg_retail]: Execution started.
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Mar 03 22:31:01 2025)]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [DISP_20305 The [Preparer] DTM with process id [4320] is running on node [node01].
+ : (Mon Mar 03 22:31:01 2025)]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [PETL_24036 Beginning the prepare phase for the session.]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6721 Started [Connect to Repository].]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6722 Finished [Connect to Repository].  It took [0.117005] seconds.]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6794 Connected to repository [REP] in domain [Domain] as user [Administrator] in security domain [Native].]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6721 Started [Fetch Session from Repository].]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.091022] seconds.]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6721 Started [Partition Group Formation].]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6722 Finished [Partition Group Formation].  It took [0.026983] seconds.]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [PETL_24037 Finished the prepare phase for the session.]
+2025-03-03 22:31:01 : INFO : (7540 | 11144) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_agg_retail] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Mar 03 22:31:01 2025)]
+2025-03-03 22:31:03 : INFO : (7540 | 7592) : (IS | IS) : node01 : LM_36318 : Session task instance [s_m_agg_retail]: Execution succeeded.
+2025-03-03 22:31:03 : INFO : (7540 | 9596) : (IS | IS) : node01 : LM_36318 : Workflow [wf_agg_retail]: Execution succeeded.
