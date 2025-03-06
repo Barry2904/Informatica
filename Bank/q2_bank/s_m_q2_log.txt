@@ -1,0 +1,1118 @@
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6014 : Initializing session [s_m_q2] at [Thu Mar 06 14:18:56 2025].
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6683 : Repository Name: [REP]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6684 : Server Name: [IS]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6686 : Folder: [Test]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6685 : Workflow: [wf_db_conn_q2] Run Instance Name: [] Run Id: [53]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6992 : Operating System Type [NT]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6101 : Mapping name: m_q2.
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6703 : Session [s_m_q2] is run by 64-bit Integration Service  [node01], version [10.5.2], build [0322].
+2025-03-06 14:18:56 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2025-03-06 14:18:56 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24058 : Running Partition Group [1].
+2025-03-06 14:18:56 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2025-03-06 14:18:56 : INFO : (2352 | MONITOR) : (IS | IS) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2025-03-06 14:18:56 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2025-03-06 14:18:56 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24003 : Initializing session run.
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : CMN_1569 : Server Mode: [ASCII]
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TM_6151 : The session sort order is [Binary].
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : CMN_65110 : Current Timezone:[UTC +5:30]
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : CMN_65112 : Current Process ID:[2352]
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TM_6156 : Using low precision processing.
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TM_6307 : DTM error log disabled. 
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TE_7022 : TShmWriter: Initialized
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TM_6007 : DTM initialized successfully for session [s_m_q2]
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2025-03-06 14:18:56 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Thu Mar 06 14:18:56 2025)
+2025-03-06 14:18:56 : INFO : (2352 | PRE-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2025-03-06 14:18:56 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Thu Mar 06 14:18:56 2025)
+2025-03-06 14:18:56 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : PETL_24006 : Starting data movement.
+2025-03-06 14:18:56 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3118 : source [SQ_Bank_Data_file_1] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16003 : Initialization completed successfully.
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [6].
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8146 : Writer: Target is Database [orcl], Type [Oracle], User [system], Bulk Mode [ON]
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8106 : Warning! Bulk Mode session - recovery is not guaranteed.
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8124 : Target Table CUSTOMER :SQL INSERT statement:
+INSERT INTO CUSTOMER(CUSTOMER_ID,CUSTOMER_FIRST_NAME,CUSTOMER_LAST_NAME,EMAIL,GENDER,DOB,SSN,MOBILE,COUNTRY,ACCOUNT_NUMBER,ACCOUNT_OPENING_DATE,CURRENT_BALANCE)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8020 : No column marked as primary key for table [CUSTOMER]. UPDATEs Not Supported.
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [CUSTOMER]
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8003 : Writer initialization complete.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16007 : Reader run started.
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8005 : Writer run started.
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Thu Mar 06 14:18:56 2025
+
+Target tables:
+
+     CUSTOMER
+
+
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3076 : Skipped over [1] lines.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Downloads\Banking_HandsOnExercises\Bank_Data_file_1.csv] : (Thu Mar 06 14:18:56 2025)
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [1], field [Account_Number]: Data [7920051401] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [2], field [Account_Number]: Data [6095720885] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [3], field [Account_Number]: Data [4654268723] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [4], field [Account_Number]: Data [7383813081] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [5], field [Account_Number]: Data [9137053752] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [6], field [Account_Number]: Data [5478991740] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [7], field [Account_Number]: Data [9758101374] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [8], field [Account_Number]: Data [9425481954] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [9], field [Account_Number]: Data [5913580656] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [10], field [Account_Number]: Data [0143050702] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [11], field [Account_Number]: Data [7824394948] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [12], field [Account_Number]: Data [4985824755] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [13], field [Account_Number]: Data [0475391330] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [14], field [Account_Number]: Data [7812496899] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [15], field [Account_Number]: Data [9769476307] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [16], field [Account_Number]: Data [5842163829] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [17], field [Account_Number]: Data [1001835840] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [18], field [Account_Number]: Data [4582218334] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [19], field [Account_Number]: Data [4918477070] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [20], field [Account_Number]: Data [0142673463] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [21], field [Account_Number]: Data [7503443820] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [22], field [Account_Number]: Data [5195060096] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [23], field [Account_Number]: Data [6356049391] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [24], field [Account_Number]: Data [0559563612] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [25], field [Account_Number]: Data [6710427684] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [26], field [Account_Number]: Data [1494509512] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [27], field [Account_Number]: Data [5205368888] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [28], field [Account_Number]: Data [1929293054] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [29], field [Account_Number]: Data [7530382756] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [30], field [Account_Number]: Data [0180320033] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [31], field [Account_Number]: Data [9546831441] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [32], field [Account_Number]: Data [1196676941] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [33], field [Account_Number]: Data [7499702561] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [34], field [Account_Number]: Data [3601323222] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [35], field [Account_Number]: Data [9178104289] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [36], field [Account_Number]: Data [0838614264] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [37], field [Account_Number]: Data [8482191365] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [38], field [Account_Number]: Data [8891221430] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [39], field [Account_Number]: Data [2873582669] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [40], field [Account_Number]: Data [1217981780] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [41], field [Account_Number]: Data [6428764121] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [42], field [Account_Number]: Data [8899876428] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [43], field [Account_Number]: Data [3877100120] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [44], field [Account_Number]: Data [7289445244] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [45], field [Account_Number]: Data [3120178497] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [46], field [Account_Number]: Data [8352774530] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [47], field [Account_Number]: Data [6855742513] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [48], field [Account_Number]: Data [6434030614] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [49], field [Account_Number]: Data [6951430926] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [50], field [Account_Number]: Data [7057103107] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [51], field [Account_Number]: Data [2270463056] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [52], field [Account_Number]: Data [6341186797] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [53], field [Account_Number]: Data [4212338610] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [54], field [Account_Number]: Data [6779407976] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [55], field [Account_Number]: Data [8031776563] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [56], field [Account_Number]: Data [0708304052] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [57], field [Account_Number]: Data [7194557487] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [58], field [Account_Number]: Data [6264015458] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [59], field [Account_Number]: Data [9122681647] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [60], field [Account_Number]: Data [9206701975] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [61], field [Account_Number]: Data [9679471209] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [62], field [Account_Number]: Data [1105381145] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [63], field [Account_Number]: Data [3222940045] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [64], field [Account_Number]: Data [7873247430] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [65], field [Account_Number]: Data [9323996165] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [66], field [Account_Number]: Data [9439057483] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [67], field [Account_Number]: Data [7124943094] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [68], field [Account_Number]: Data [7210208976] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [69], field [Account_Number]: Data [6468640547] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [70], field [Account_Number]: Data [9184487798] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [71], field [Account_Number]: Data [5792802785] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [72], field [Account_Number]: Data [8548138858] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [73], field [Account_Number]: Data [0912771755] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [74], field [Account_Number]: Data [3116840083] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [75], field [Account_Number]: Data [6447065071] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [76], field [Account_Number]: Data [8516353419] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [77], field [Account_Number]: Data [7431955847] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [78], field [Account_Number]: Data [8086961834] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [79], field [Account_Number]: Data [9992058803] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [80], field [Account_Number]: Data [4753357015] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [81], field [Account_Number]: Data [3092978048] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [82], field [Account_Number]: Data [6415530879] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [83], field [Account_Number]: Data [2460631235] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [84], field [Account_Number]: Data [6545471155] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [85], field [Account_Number]: Data [6184515438] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [86], field [Account_Number]: Data [4505113884] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [87], field [Account_Number]: Data [3775480935] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [88], field [Account_Number]: Data [6035427111] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [89], field [Account_Number]: Data [3359845781] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [90], field [Account_Number]: Data [5012200888] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [91], field [Account_Number]: Data [9478203975] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [92], field [Account_Number]: Data [9077313834] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [93], field [Account_Number]: Data [6753223371] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [94], field [Account_Number]: Data [1361754885] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [95], field [Account_Number]: Data [5126210556] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [96], field [Account_Number]: Data [6055879816] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [97], field [Account_Number]: Data [8930127797] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [98], field [Account_Number]: Data [2297534116] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [99], field [Account_Number]: Data [1406134236] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [100], field [Account_Number]: Data [2247237215] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [101], field [Account_Number]: Data [7867457526] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [102], field [Account_Number]: Data [6530762213] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [103], field [Account_Number]: Data [8740093247] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [104], field [Account_Number]: Data [3538502188] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [105], field [Account_Number]: Data [7328055154] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [106], field [Account_Number]: Data [5952708048] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [107], field [Account_Number]: Data [4228003583] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [108], field [Account_Number]: Data [0936929162] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [109], field [Account_Number]: Data [3905901919] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [110], field [Account_Number]: Data [3084525889] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [111], field [Account_Number]: Data [6168825436] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [112], field [Account_Number]: Data [5388104923] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [113], field [Account_Number]: Data [6281223888] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [114], field [Account_Number]: Data [6535867021] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [115], field [Account_Number]: Data [0166414921] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [116], field [Account_Number]: Data [4171440165] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [117], field [Account_Number]: Data [6915478183] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [118], field [Account_Number]: Data [6381057998] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [119], field [Account_Number]: Data [6112581167] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [120], field [Account_Number]: Data [9810131356] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [121], field [Account_Number]: Data [1649192010] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [122], field [Account_Number]: Data [8861304109] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [123], field [Account_Number]: Data [2871818339] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [124], field [Account_Number]: Data [5985206556] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [125], field [Account_Number]: Data [0376604301] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [126], field [Account_Number]: Data [1694796051] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [127], field [Account_Number]: Data [8800446426] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [128], field [Account_Number]: Data [7868470836] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [129], field [Account_Number]: Data [0224378309] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [130], field [Account_Number]: Data [3450852795] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [131], field [Account_Number]: Data [9162112171] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [132], field [Account_Number]: Data [6294496519] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [133], field [Account_Number]: Data [1305891406] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [134], field [Account_Number]: Data [5091077766] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [135], field [Account_Number]: Data [9968190691] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [136], field [Account_Number]: Data [1513195700] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [137], field [Account_Number]: Data [8784219726] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [138], field [Account_Number]: Data [3362189067] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [139], field [Account_Number]: Data [3436665428] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [140], field [Account_Number]: Data [1290516928] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [141], field [Account_Number]: Data [6988748415] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [142], field [Account_Number]: Data [4619079618] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [143], field [Account_Number]: Data [0469662123] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [144], field [Account_Number]: Data [3797078412] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [145], field [Account_Number]: Data [3790736864] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [146], field [Account_Number]: Data [0986561169] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [147], field [Account_Number]: Data [0002573911] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [148], field [Account_Number]: Data [2156535256] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [149], field [Account_Number]: Data [2321852356] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [150], field [Account_Number]: Data [4740446383] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [151], field [Account_Number]: Data [0288088816] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [152], field [Account_Number]: Data [0613460154] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8167 : Start loading table [CUSTOMER] at: Thu Mar 06 14:18:56 2025
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [153], field [Account_Number]: Data [6178915462] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [154], field [Account_Number]: Data [0531729249] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [155], field [Account_Number]: Data [4844338927] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [156], field [Account_Number]: Data [5355813712] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [157], field [Account_Number]: Data [9797130533] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [158], field [Account_Number]: Data [4300128774] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [159], field [Account_Number]: Data [2203301724] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [160], field [Account_Number]: Data [4733107250] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [161], field [Account_Number]: Data [5143775426] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [162], field [Account_Number]: Data [1857206835] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [163], field [Account_Number]: Data [7502781005] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [164], field [Account_Number]: Data [6889994086] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [165], field [Account_Number]: Data [4711157549] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [166], field [Account_Number]: Data [5205338350] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [167], field [Account_Number]: Data [4598726245] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [168], field [Account_Number]: Data [3498955403] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [169], field [Account_Number]: Data [2929839503] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [170], field [Account_Number]: Data [9639463329] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [171], field [Account_Number]: Data [7458576006] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [172], field [Account_Number]: Data [8671837890] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [173], field [Account_Number]: Data [5590905206] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [174], field [Account_Number]: Data [5883308430] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [175], field [Account_Number]: Data [6845469040] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [176], field [Account_Number]: Data [0386538832] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [177], field [Account_Number]: Data [4373961336] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [178], field [Account_Number]: Data [0604741472] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [179], field [Account_Number]: Data [2149868059] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [180], field [Account_Number]: Data [6203228435] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [181], field [Account_Number]: Data [4327038776] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [182], field [Account_Number]: Data [0378399659] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [183], field [Account_Number]: Data [7431901968] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [184], field [Account_Number]: Data [2709455951] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [185], field [Account_Number]: Data [7534205859] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [186], field [Account_Number]: Data [3045048978] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [187], field [Account_Number]: Data [7405504752] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [188], field [Account_Number]: Data [1678236691] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [189], field [Account_Number]: Data [8797162981] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [190], field [Account_Number]: Data [4003065182] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [191], field [Account_Number]: Data [5035166945] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [192], field [Account_Number]: Data [2750205050] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [193], field [Account_Number]: Data [8814085595] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [194], field [Account_Number]: Data [2973586410] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [195], field [Account_Number]: Data [5571956313] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [196], field [Account_Number]: Data [1598832506] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [197], field [Account_Number]: Data [1669462935] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [198], field [Account_Number]: Data [4885024331] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [199], field [Account_Number]: Data [7896583682] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [200], field [Account_Number]: Data [0085620378] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [201], field [Account_Number]: Data [9362280647] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [202], field [Account_Number]: Data [5037364833] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [203], field [Account_Number]: Data [0143679066] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [204], field [Account_Number]: Data [0336005946] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [205], field [Account_Number]: Data [2167194587] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [206], field [Account_Number]: Data [1611840635] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [207], field [Account_Number]: Data [7041279405] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [208], field [Account_Number]: Data [1293139424] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [209], field [Account_Number]: Data [5340576345] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [210], field [Account_Number]: Data [4911545186] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [211], field [Account_Number]: Data [5583958391] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [212], field [Account_Number]: Data [0041034090] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [213], field [Account_Number]: Data [3913592768] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [214], field [Account_Number]: Data [6157931019] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [215], field [Account_Number]: Data [8373176837] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [216], field [Account_Number]: Data [7652352681] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [217], field [Account_Number]: Data [5765298745] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [218], field [Account_Number]: Data [3586781326] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [219], field [Account_Number]: Data [4643363673] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [220], field [Account_Number]: Data [8016753094] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [221], field [Account_Number]: Data [3150414520] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [222], field [Account_Number]: Data [5773406292] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [223], field [Account_Number]: Data [3734838118] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [224], field [Account_Number]: Data [8834583760] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [225], field [Account_Number]: Data [5163745379] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [226], field [Account_Number]: Data [0202498352] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [227], field [Account_Number]: Data [0417414595] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [228], field [Account_Number]: Data [2473790426] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [229], field [Account_Number]: Data [1541239199] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [230], field [Account_Number]: Data [8300302689] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [231], field [Account_Number]: Data [7423109509] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [232], field [Account_Number]: Data [2223704506] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [233], field [Account_Number]: Data [8847497167] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [234], field [Account_Number]: Data [6268845765] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [235], field [Account_Number]: Data [3634164840] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [236], field [Account_Number]: Data [6752334919] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [237], field [Account_Number]: Data [0366857479] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [238], field [Account_Number]: Data [6829546524] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [239], field [Account_Number]: Data [4996213922] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [240], field [Account_Number]: Data [3380055786] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [241], field [Account_Number]: Data [7786834990] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [242], field [Account_Number]: Data [0593493478] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [243], field [Account_Number]: Data [5355492282] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [244], field [Account_Number]: Data [1561306037] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [245], field [Account_Number]: Data [7708992516] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [246], field [Account_Number]: Data [8076078067] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [247], field [Account_Number]: Data [8239999255] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [248], field [Account_Number]: Data [1454679239] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [249], field [Account_Number]: Data [0692683895] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [250], field [Account_Number]: Data [9325773570] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [251], field [Account_Number]: Data [6384756587] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [252], field [Account_Number]: Data [1316708047] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [253], field [Account_Number]: Data [4765274667] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [254], field [Account_Number]: Data [2859796487] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [255], field [Account_Number]: Data [1782269002] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [256], field [Account_Number]: Data [1164984985] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [257], field [Account_Number]: Data [6265236490] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [258], field [Account_Number]: Data [9077011919] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [259], field [Account_Number]: Data [8790144422] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [260], field [Account_Number]: Data [6340345603] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [261], field [Account_Number]: Data [1486354173] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [262], field [Account_Number]: Data [1312844132] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [263], field [Account_Number]: Data [2526939240] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [264], field [Account_Number]: Data [0017208572] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [265], field [Account_Number]: Data [0471914827] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [266], field [Account_Number]: Data [2077871997] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [267], field [Account_Number]: Data [7888376185] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [268], field [Account_Number]: Data [8253682794] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [269], field [Account_Number]: Data [4944263058] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [270], field [Account_Number]: Data [3212617195] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [271], field [Account_Number]: Data [4824367050] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [272], field [Account_Number]: Data [8572057390] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [273], field [Account_Number]: Data [1987138074] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [274], field [Account_Number]: Data [2202762639] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [275], field [Account_Number]: Data [8939434927] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [276], field [Account_Number]: Data [0065193970] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [277], field [Account_Number]: Data [9307499888] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [278], field [Account_Number]: Data [9476001399] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [279], field [Account_Number]: Data [5978423105] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [280], field [Account_Number]: Data [8488846916] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [281], field [Account_Number]: Data [4015249534] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [282], field [Account_Number]: Data [7026602349] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [283], field [Account_Number]: Data [0832876461] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [284], field [Account_Number]: Data [3202401149] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [285], field [Account_Number]: Data [4621234374] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [286], field [Account_Number]: Data [3165578214] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [287], field [Account_Number]: Data [7504101567] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [288], field [Account_Number]: Data [4444562803] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [289], field [Account_Number]: Data [5783756326] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [290], field [Account_Number]: Data [0306740311] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [291], field [Account_Number]: Data [2168747717] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [292], field [Account_Number]: Data [5144362680] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [293], field [Account_Number]: Data [7712779104] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [294], field [Account_Number]: Data [5025019311] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [295], field [Account_Number]: Data [2322535508] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [296], field [Account_Number]: Data [0166819034] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [297], field [Account_Number]: Data [2186041812] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [298], field [Account_Number]: Data [2893849806] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [299], field [Account_Number]: Data [6858531025] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [300], field [Account_Number]: Data [5556909628] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [301], field [Account_Number]: Data [7721533600] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [302], field [Account_Number]: Data [1319673244] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [303], field [Account_Number]: Data [3801703819] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [304], field [Account_Number]: Data [4776623048] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [305], field [Account_Number]: Data [4951162504] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [306], field [Account_Number]: Data [0948328207] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [307], field [Account_Number]: Data [6332315822] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [308], field [Account_Number]: Data [4740058448] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [309], field [Account_Number]: Data [2782357786] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [310], field [Account_Number]: Data [3535326753] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [311], field [Account_Number]: Data [7792075338] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [312], field [Account_Number]: Data [0141363738] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [313], field [Account_Number]: Data [2773507967] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [314], field [Account_Number]: Data [1867024756] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [315], field [Account_Number]: Data [1741363675] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [316], field [Account_Number]: Data [0593137280] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [317], field [Account_Number]: Data [5674401225] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [318], field [Account_Number]: Data [3999824581] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [319], field [Account_Number]: Data [5842526719] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [320], field [Account_Number]: Data [8541315436] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [321], field [Account_Number]: Data [7409340843] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [322], field [Account_Number]: Data [7265640241] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [323], field [Account_Number]: Data [0268310025] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [324], field [Account_Number]: Data [4181907732] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [325], field [Account_Number]: Data [7412950517] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [326], field [Account_Number]: Data [2063079854] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [327], field [Account_Number]: Data [3750111464] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [328], field [Account_Number]: Data [9846363761] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [329], field [Account_Number]: Data [4156077500] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [330], field [Account_Number]: Data [2214603670] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [331], field [Account_Number]: Data [6634815798] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [332], field [Account_Number]: Data [9335418994] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [333], field [Account_Number]: Data [9578176503] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [334], field [Account_Number]: Data [0303840056] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [335], field [Account_Number]: Data [0901771120] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [336], field [Account_Number]: Data [7853811322] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [337], field [Account_Number]: Data [6047822487] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [338], field [Account_Number]: Data [5998756940] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [339], field [Account_Number]: Data [0072442387] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [340], field [Account_Number]: Data [3627292502] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [341], field [Account_Number]: Data [7967226356] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [342], field [Account_Number]: Data [6805492432] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [343], field [Account_Number]: Data [3766877267] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [344], field [Account_Number]: Data [5288497443] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [345], field [Account_Number]: Data [5802941936] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [346], field [Account_Number]: Data [3488676137] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [347], field [Account_Number]: Data [0088778959] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [348], field [Account_Number]: Data [8261170977] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [349], field [Account_Number]: Data [6985186742] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [350], field [Account_Number]: Data [2490464027] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [351], field [Account_Number]: Data [7737547037] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [352], field [Account_Number]: Data [9184382074] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [353], field [Account_Number]: Data [2090322411] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [354], field [Account_Number]: Data [9323092398] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [355], field [Account_Number]: Data [6618514975] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [356], field [Account_Number]: Data [7690741169] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [357], field [Account_Number]: Data [3834742619] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [358], field [Account_Number]: Data [5336195669] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [359], field [Account_Number]: Data [2533355593] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [360], field [Account_Number]: Data [4870243660] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [361], field [Account_Number]: Data [6628071545] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [362], field [Account_Number]: Data [0374061793] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [363], field [Account_Number]: Data [8931397755] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [364], field [Account_Number]: Data [4672546950] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [365], field [Account_Number]: Data [4719121519] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [366], field [Account_Number]: Data [0493835776] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [367], field [Account_Number]: Data [3417710812] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [368], field [Account_Number]: Data [2395334464] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [369], field [Account_Number]: Data [8552334267] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [370], field [Account_Number]: Data [0061152137] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [371], field [Account_Number]: Data [6980933507] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [372], field [Account_Number]: Data [2294182685] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [373], field [Account_Number]: Data [2190111528] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [374], field [Account_Number]: Data [0371535972] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [375], field [Account_Number]: Data [2633677509] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [376], field [Account_Number]: Data [1805209280] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [377], field [Account_Number]: Data [7515463945] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [378], field [Account_Number]: Data [0982411553] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [379], field [Account_Number]: Data [3888838126] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [380], field [Account_Number]: Data [9441167452] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [381], field [Account_Number]: Data [5035595838] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [382], field [Account_Number]: Data [9777618395] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [383], field [Account_Number]: Data [6598659418] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [384], field [Account_Number]: Data [5841669575] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [385], field [Account_Number]: Data [3010400705] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [386], field [Account_Number]: Data [0285458469] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [387], field [Account_Number]: Data [6061734514] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [388], field [Account_Number]: Data [4322793096] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [389], field [Account_Number]: Data [3135047288] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [390], field [Account_Number]: Data [9596692275] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [391], field [Account_Number]: Data [6320116250] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [392], field [Account_Number]: Data [8365415615] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [393], field [Account_Number]: Data [2218295423] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [394], field [Account_Number]: Data [2678906809] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [395], field [Account_Number]: Data [7626910036] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [396], field [Account_Number]: Data [8662270646] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [397], field [Account_Number]: Data [6950344465] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [398], field [Account_Number]: Data [5825847715] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [399], field [Account_Number]: Data [4171366380] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [400], field [Account_Number]: Data [7528118567] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [401], field [Account_Number]: Data [1731478690] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [402], field [Account_Number]: Data [9079958077] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [403], field [Account_Number]: Data [5057447793] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [404], field [Account_Number]: Data [3559861950] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [405], field [Account_Number]: Data [7496005959] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [406], field [Account_Number]: Data [8303768549] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [407], field [Account_Number]: Data [1503030334] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [408], field [Account_Number]: Data [5436042589] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [409], field [Account_Number]: Data [4808831619] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [410], field [Account_Number]: Data [0449057674] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [411], field [Account_Number]: Data [3439024598] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [412], field [Account_Number]: Data [8420753106] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [413], field [Account_Number]: Data [1146002599] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [414], field [Account_Number]: Data [6118904944] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [415], field [Account_Number]: Data [8398809051] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [416], field [Account_Number]: Data [0573141576] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [417], field [Account_Number]: Data [1792604785] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [418], field [Account_Number]: Data [2617053504] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [419], field [Account_Number]: Data [1423692454] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [420], field [Account_Number]: Data [0058780564] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [421], field [Account_Number]: Data [5968214236] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [422], field [Account_Number]: Data [8050000524] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [423], field [Account_Number]: Data [7273591033] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [424], field [Account_Number]: Data [7323666481] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [425], field [Account_Number]: Data [2337762254] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [426], field [Account_Number]: Data [1983468029] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [427], field [Account_Number]: Data [8026229061] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [428], field [Account_Number]: Data [3075753548] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [429], field [Account_Number]: Data [1298878330] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [430], field [Account_Number]: Data [8788780279] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [431], field [Account_Number]: Data [0312246560] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [432], field [Account_Number]: Data [9503728924] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [433], field [Account_Number]: Data [6603746727] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [434], field [Account_Number]: Data [7903906712] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [435], field [Account_Number]: Data [1918936951] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [436], field [Account_Number]: Data [3647494070] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [437], field [Account_Number]: Data [7897015815] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [438], field [Account_Number]: Data [8150624112] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [439], field [Account_Number]: Data [8522429758] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [440], field [Account_Number]: Data [8110536050] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [441], field [Account_Number]: Data [7041354423] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [442], field [Account_Number]: Data [9234444507] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [443], field [Account_Number]: Data [4411709678] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [444], field [Account_Number]: Data [2793714852] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [445], field [Account_Number]: Data [6286896554] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [446], field [Account_Number]: Data [2521976202] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [447], field [Account_Number]: Data [4796916164] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [448], field [Account_Number]: Data [7510548381] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [449], field [Account_Number]: Data [2609386958] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [450], field [Account_Number]: Data [4588485792] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [451], field [Account_Number]: Data [0892481153] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [452], field [Account_Number]: Data [9490344966] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [453], field [Account_Number]: Data [7630369123] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [454], field [Account_Number]: Data [4831567094] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [455], field [Account_Number]: Data [0663379113] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [456], field [Account_Number]: Data [2258667577] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [457], field [Account_Number]: Data [9177080165] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [458], field [Account_Number]: Data [8956200106] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [459], field [Account_Number]: Data [4858291154] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [460], field [Account_Number]: Data [2109391235] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [461], field [Account_Number]: Data [4801500102] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [462], field [Account_Number]: Data [9438992561] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [463], field [Account_Number]: Data [6430415236] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [464], field [Account_Number]: Data [3901081097] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [465], field [Account_Number]: Data [9597124289] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [466], field [Account_Number]: Data [1353899985] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [467], field [Account_Number]: Data [5537567075] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [468], field [Account_Number]: Data [3283108447] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [469], field [Account_Number]: Data [6473298487] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [470], field [Account_Number]: Data [8955200676] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [471], field [Account_Number]: Data [8374163852] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [472], field [Account_Number]: Data [6708217767] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [473], field [Account_Number]: Data [3472679271] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [474], field [Account_Number]: Data [8495494906] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [475], field [Account_Number]: Data [4025506602] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [476], field [Account_Number]: Data [9470185447] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [477], field [Account_Number]: Data [2044667444] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [478], field [Account_Number]: Data [3051867020] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [479], field [Account_Number]: Data [3321037815] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [480], field [Account_Number]: Data [2455961818] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [481], field [Account_Number]: Data [4284377426] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [482], field [Account_Number]: Data [9166206111] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [483], field [Account_Number]: Data [2692922891] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [484], field [Account_Number]: Data [1507480148] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [485], field [Account_Number]: Data [0079434746] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [486], field [Account_Number]: Data [5803818569] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [487], field [Account_Number]: Data [2257983017] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [488], field [Account_Number]: Data [0621848913] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [489], field [Account_Number]: Data [1752558243] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [490], field [Account_Number]: Data [9726801664] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [491], field [Account_Number]: Data [4570173950] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [492], field [Account_Number]: Data [4021108041] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [493], field [Account_Number]: Data [4173256655] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [494], field [Account_Number]: Data [9017800798] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [495], field [Account_Number]: Data [6913406827] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [496], field [Account_Number]: Data [3695004320] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [497], field [Account_Number]: Data [8728613961] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [498], field [Account_Number]: Data [5869866251] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [499], field [Account_Number]: Data [3230690788] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [500], field [Account_Number]: Data [3881664653] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [501], field [Account_Number]: Data [1888109440] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [502], field [Account_Number]: Data [2874541443] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [503], field [Account_Number]: Data [4378718227] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [504], field [Account_Number]: Data [7464443926] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [505], field [Account_Number]: Data [4181637891] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [506], field [Account_Number]: Data [0228930332] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [507], field [Account_Number]: Data [7025841730] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [508], field [Account_Number]: Data [0941414264] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [509], field [Account_Number]: Data [8863930902] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [510], field [Account_Number]: Data [1837959366] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [511], field [Account_Number]: Data [9345157662] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [512], field [Account_Number]: Data [6533525506] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [513], field [Account_Number]: Data [2875523163] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [514], field [Account_Number]: Data [6367201998] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [515], field [Account_Number]: Data [0443896895] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [516], field [Account_Number]: Data [4707354580] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [517], field [Account_Number]: Data [3224383089] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [518], field [Account_Number]: Data [1883201705] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [519], field [Account_Number]: Data [7321240908] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [520], field [Account_Number]: Data [3072716161] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [521], field [Account_Number]: Data [6159076965] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [522], field [Account_Number]: Data [6283964109] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [523], field [Account_Number]: Data [4421335258] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [524], field [Account_Number]: Data [3785717458] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [525], field [Account_Number]: Data [3555608177] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [526], field [Account_Number]: Data [7260257083] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [527], field [Account_Number]: Data [9696547846] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [528], field [Account_Number]: Data [3011669538] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [529], field [Account_Number]: Data [5296956737] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [530], field [Account_Number]: Data [7531086999] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [531], field [Account_Number]: Data [7232882262] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [532], field [Account_Number]: Data [8332025842] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [533], field [Account_Number]: Data [6362196570] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [534], field [Account_Number]: Data [8315254316] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [535], field [Account_Number]: Data [0906542987] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [536], field [Account_Number]: Data [5275896190] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [537], field [Account_Number]: Data [2634345682] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [538], field [Account_Number]: Data [2626932507] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [539], field [Account_Number]: Data [2160442860] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [540], field [Account_Number]: Data [6671570035] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [541], field [Account_Number]: Data [6348269086] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [542], field [Account_Number]: Data [6794625458] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [543], field [Account_Number]: Data [2026933197] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [544], field [Account_Number]: Data [6669539282] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [545], field [Account_Number]: Data [1510940979] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [546], field [Account_Number]: Data [1652920277] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [547], field [Account_Number]: Data [9765053673] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [548], field [Account_Number]: Data [5522855754] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [549], field [Account_Number]: Data [7131094250] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [550], field [Account_Number]: Data [2272418309] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [551], field [Account_Number]: Data [3122428199] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [552], field [Account_Number]: Data [7913474076] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [553], field [Account_Number]: Data [3551199302] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [554], field [Account_Number]: Data [2410092578] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [555], field [Account_Number]: Data [4159031579] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [556], field [Account_Number]: Data [8024336863] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [557], field [Account_Number]: Data [2362361322] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [558], field [Account_Number]: Data [4004780527] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [559], field [Account_Number]: Data [8670274825] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [560], field [Account_Number]: Data [3683331569] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [561], field [Account_Number]: Data [4576368192] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [562], field [Account_Number]: Data [3540826718] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [563], field [Account_Number]: Data [3076339907] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [564], field [Account_Number]: Data [4526767506] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [565], field [Account_Number]: Data [3012085645] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [566], field [Account_Number]: Data [4291180888] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [567], field [Account_Number]: Data [9234620178] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [568], field [Account_Number]: Data [4606219084] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [569], field [Account_Number]: Data [9905356118] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [570], field [Account_Number]: Data [9688876666] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [571], field [Account_Number]: Data [3726802231] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [572], field [Account_Number]: Data [7216136284] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [573], field [Account_Number]: Data [0780520858] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [574], field [Account_Number]: Data [8191844532] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [575], field [Account_Number]: Data [4807409239] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [576], field [Account_Number]: Data [9050567886] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [577], field [Account_Number]: Data [0996065059] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [578], field [Account_Number]: Data [8635427351] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [579], field [Account_Number]: Data [3845341688] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [580], field [Account_Number]: Data [1496191579] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [581], field [Account_Number]: Data [3439145174] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [582], field [Account_Number]: Data [9576926734] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [583], field [Account_Number]: Data [1050049845] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [584], field [Account_Number]: Data [3451960680] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [585], field [Account_Number]: Data [9806246462] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [586], field [Account_Number]: Data [3897032430] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [587], field [Account_Number]: Data [2092729357] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [588], field [Account_Number]: Data [5615781548] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [589], field [Account_Number]: Data [7491496377] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [590], field [Account_Number]: Data [8457265970] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [591], field [Account_Number]: Data [5435849837] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [592], field [Account_Number]: Data [4786679771] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [597], field [Customer_First_Name]: Data [Alejandrina] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [729], field [Customer_First_Name]: Data [Christoffer] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [593], field [Account_Number]: Data [6460454418] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [594], field [Account_Number]: Data [5682852869] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [595], field [Account_Number]: Data [9586650421] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [596], field [Account_Number]: Data [1589143663] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [597], field [Account_Number]: Data [7914374822] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [598], field [Account_Number]: Data [3675504190] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [599], field [Account_Number]: Data [3631295324] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [600], field [Account_Number]: Data [8640090203] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [601], field [Account_Number]: Data [5701422518] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [602], field [Account_Number]: Data [8167582841] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [603], field [Account_Number]: Data [7504361100] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [604], field [Account_Number]: Data [5738135091] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [605], field [Account_Number]: Data [3209986681] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [606], field [Account_Number]: Data [0103685863] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [607], field [Account_Number]: Data [3576100903] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [608], field [Account_Number]: Data [2683588666] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [609], field [Account_Number]: Data [3448448257] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [610], field [Account_Number]: Data [6758631559] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [611], field [Account_Number]: Data [2671003943] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [612], field [Account_Number]: Data [5206400203] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [613], field [Account_Number]: Data [8103451851] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [614], field [Account_Number]: Data [5410786920] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [615], field [Account_Number]: Data [7252231771] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [616], field [Account_Number]: Data [3901602976] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [617], field [Account_Number]: Data [5770882018] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [618], field [Account_Number]: Data [1591639581] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [619], field [Account_Number]: Data [5826699574] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [620], field [Account_Number]: Data [2690215802] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [621], field [Account_Number]: Data [2234692407] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [622], field [Account_Number]: Data [2970389061] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [623], field [Account_Number]: Data [9236514618] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [624], field [Account_Number]: Data [5915497616] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [625], field [Account_Number]: Data [0985098384] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [626], field [Account_Number]: Data [9875745294] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [627], field [Account_Number]: Data [4131870770] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [628], field [Account_Number]: Data [1610588959] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [629], field [Account_Number]: Data [6890396146] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [630], field [Account_Number]: Data [9038293860] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [631], field [Account_Number]: Data [2130529372] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [632], field [Account_Number]: Data [1768476586] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [633], field [Account_Number]: Data [1490841245] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [634], field [Account_Number]: Data [0570030951] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [635], field [Account_Number]: Data [3447301449] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [636], field [Account_Number]: Data [0205681093] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [637], field [Account_Number]: Data [0599338261] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [638], field [Account_Number]: Data [1287787002] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [639], field [Account_Number]: Data [1206979968] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [640], field [Account_Number]: Data [4188450533] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [641], field [Account_Number]: Data [0178393002] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [642], field [Account_Number]: Data [9627876887] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [643], field [Account_Number]: Data [8644683624] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [644], field [Account_Number]: Data [2417021528] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [645], field [Account_Number]: Data [3223966536] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [646], field [Account_Number]: Data [8183873227] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [647], field [Account_Number]: Data [1364982617] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [648], field [Account_Number]: Data [8170374472] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [649], field [Account_Number]: Data [4698862027] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [650], field [Account_Number]: Data [2896333878] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [651], field [Account_Number]: Data [0750924349] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [652], field [Account_Number]: Data [6614065068] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [653], field [Account_Number]: Data [1769992693] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [654], field [Account_Number]: Data [8638750552] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [655], field [Account_Number]: Data [6202896663] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [656], field [Account_Number]: Data [7605672055] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [657], field [Account_Number]: Data [6881588186] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [658], field [Account_Number]: Data [3176648618] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [659], field [Account_Number]: Data [7923682585] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [660], field [Account_Number]: Data [5599851702] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [661], field [Account_Number]: Data [4471203126] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [662], field [Account_Number]: Data [3611494976] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [663], field [Account_Number]: Data [2716185859] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [664], field [Account_Number]: Data [1999965434] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [665], field [Account_Number]: Data [1636979912] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [666], field [Account_Number]: Data [3525276621] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [667], field [Account_Number]: Data [9510698687] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [668], field [Account_Number]: Data [1748588184] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [669], field [Account_Number]: Data [5045658506] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [670], field [Account_Number]: Data [0617245487] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [671], field [Account_Number]: Data [8837958382] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [672], field [Account_Number]: Data [8340023713] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [673], field [Account_Number]: Data [5520123845] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [674], field [Account_Number]: Data [3273486295] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [675], field [Account_Number]: Data [7482427031] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [676], field [Account_Number]: Data [3602156842] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [677], field [Account_Number]: Data [8814777039] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [678], field [Account_Number]: Data [1677544465] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [679], field [Account_Number]: Data [3462748750] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [680], field [Account_Number]: Data [8849789467] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [681], field [Account_Number]: Data [2853995771] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [682], field [Account_Number]: Data [8965334594] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [683], field [Account_Number]: Data [2407336348] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [684], field [Account_Number]: Data [9519500367] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [685], field [Account_Number]: Data [5443885243] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [686], field [Account_Number]: Data [0862217962] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [687], field [Account_Number]: Data [9009907554] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [688], field [Account_Number]: Data [3201946168] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [689], field [Account_Number]: Data [4973262595] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [690], field [Account_Number]: Data [8415264623] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [691], field [Account_Number]: Data [3411727160] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [692], field [Account_Number]: Data [1659869390] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [693], field [Account_Number]: Data [6679916976] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [694], field [Account_Number]: Data [7655840547] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [695], field [Account_Number]: Data [1043948317] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [696], field [Account_Number]: Data [5005294651] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [697], field [Account_Number]: Data [7398892772] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [698], field [Account_Number]: Data [5286396313] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [699], field [Account_Number]: Data [5437166583] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [700], field [Account_Number]: Data [2122368403] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [701], field [Account_Number]: Data [8952678796] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [702], field [Account_Number]: Data [3268095569] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [703], field [Account_Number]: Data [8656300121] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [704], field [Account_Number]: Data [5706787220] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [705], field [Account_Number]: Data [1665680903] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [706], field [Account_Number]: Data [1384688617] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [707], field [Account_Number]: Data [8646459489] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [708], field [Account_Number]: Data [3805703287] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [709], field [Account_Number]: Data [6945935507] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [710], field [Account_Number]: Data [8043651140] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [711], field [Account_Number]: Data [8510450250] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [712], field [Account_Number]: Data [6013164088] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [713], field [Account_Number]: Data [6196880330] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [714], field [Account_Number]: Data [2181291098] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [715], field [Account_Number]: Data [9828624257] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [716], field [Account_Number]: Data [4581309840] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [717], field [Account_Number]: Data [2866527313] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [718], field [Account_Number]: Data [1821352114] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [719], field [Account_Number]: Data [2135885738] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [720], field [Account_Number]: Data [4425340094] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [721], field [Account_Number]: Data [6018659875] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [722], field [Account_Number]: Data [7460264067] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [723], field [Account_Number]: Data [2466063786] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [724], field [Account_Number]: Data [9109852778] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [725], field [Account_Number]: Data [9447953859] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [726], field [Account_Number]: Data [5984685922] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [727], field [Account_Number]: Data [5809253326] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [728], field [Account_Number]: Data [4643447672] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [729], field [Account_Number]: Data [3136665619] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [730], field [Account_Number]: Data [0666658676] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [731], field [Account_Number]: Data [9506959250] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [732], field [Account_Number]: Data [0045598002] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [733], field [Account_Number]: Data [8361325344] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [734], field [Account_Number]: Data [0805154213] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [735], field [Account_Number]: Data [6913034725] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [736], field [Account_Number]: Data [2719926302] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [737], field [Account_Number]: Data [6954348155] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [738], field [Account_Number]: Data [2402908599] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [739], field [Account_Number]: Data [0187776628] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [740], field [Account_Number]: Data [9591518579] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [741], field [Account_Number]: Data [6903901612] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [742], field [Account_Number]: Data [8155729923] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [743], field [Account_Number]: Data [0072694254] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [744], field [Account_Number]: Data [7075679201] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [745], field [Account_Number]: Data [5104655075] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [746], field [Account_Number]: Data [0653404255] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [747], field [Account_Number]: Data [1946458481] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [748], field [Account_Number]: Data [8452666713] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [749], field [Account_Number]: Data [0383011515] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [750], field [Account_Number]: Data [0785945563] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [751], field [Account_Number]: Data [8126671505] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [752], field [Account_Number]: Data [2967215945] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [753], field [Account_Number]: Data [6437700270] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [754], field [Account_Number]: Data [4070307044] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [755], field [Account_Number]: Data [2553501986] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [756], field [Account_Number]: Data [0659236117] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [757], field [Account_Number]: Data [9494009916] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [758], field [Account_Number]: Data [5025369754] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [759], field [Account_Number]: Data [0906201438] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [760], field [Account_Number]: Data [4368729994] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [761], field [Account_Number]: Data [8041477127] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [762], field [Account_Number]: Data [8289369417] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [763], field [Account_Number]: Data [3970980941] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [764], field [Account_Number]: Data [3546168984] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [765], field [Account_Number]: Data [6134769231] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [766], field [Account_Number]: Data [6457083455] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [767], field [Account_Number]: Data [8940334973] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [768], field [Account_Number]: Data [9041962123] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [769], field [Account_Number]: Data [9324786458] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [770], field [Account_Number]: Data [0986816841] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [771], field [Account_Number]: Data [8388836013] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [772], field [Account_Number]: Data [4041445450] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [773], field [Account_Number]: Data [3974992367] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [774], field [Account_Number]: Data [1402541740] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [775], field [Account_Number]: Data [9687693053] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [776], field [Account_Number]: Data [6086626359] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [777], field [Account_Number]: Data [3612782142] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [778], field [Account_Number]: Data [6036562152] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [779], field [Account_Number]: Data [0957824823] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [780], field [Account_Number]: Data [0769634265] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [781], field [Account_Number]: Data [7188241651] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [782], field [Account_Number]: Data [6866356474] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [783], field [Account_Number]: Data [2421411432] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [784], field [Account_Number]: Data [2823383905] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [785], field [Account_Number]: Data [7686496694] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [786], field [Account_Number]: Data [1544608020] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [787], field [Account_Number]: Data [1219460745] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [788], field [Account_Number]: Data [2522755196] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [789], field [Account_Number]: Data [2353956254] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [790], field [Account_Number]: Data [2769791435] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [791], field [Account_Number]: Data [9504835015] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [792], field [Account_Number]: Data [3812505010] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [793], field [Account_Number]: Data [4458742124] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [794], field [Account_Number]: Data [9400659598] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [795], field [Account_Number]: Data [6588208308] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [796], field [Account_Number]: Data [1476743746] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [797], field [Account_Number]: Data [5114768662] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [798], field [Account_Number]: Data [7796106246] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [799], field [Account_Number]: Data [7805973180] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [800], field [Account_Number]: Data [4020816832] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [801], field [Account_Number]: Data [9007460749] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [802], field [Account_Number]: Data [9912042506] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [803], field [Account_Number]: Data [3328134379] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [804], field [Account_Number]: Data [6911484553] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [805], field [Account_Number]: Data [1222534320] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [806], field [Account_Number]: Data [9334895616] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [807], field [Account_Number]: Data [6328004966] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [808], field [Account_Number]: Data [5743137188] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [809], field [Account_Number]: Data [0599221852] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [810], field [Account_Number]: Data [9268243512] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [811], field [Account_Number]: Data [7016354938] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [812], field [Account_Number]: Data [5735352431] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [813], field [Account_Number]: Data [2293666859] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [814], field [Account_Number]: Data [5267294756] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [815], field [Account_Number]: Data [3832090355] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [816], field [Account_Number]: Data [7376826645] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [817], field [Account_Number]: Data [9834797842] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [818], field [Account_Number]: Data [3340442541] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [819], field [Account_Number]: Data [4393084934] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [820], field [Account_Number]: Data [3617628230] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [821], field [Account_Number]: Data [7358354869] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [822], field [Account_Number]: Data [8113084320] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [823], field [Account_Number]: Data [7709755364] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [824], field [Account_Number]: Data [8399826065] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [825], field [Account_Number]: Data [2214384626] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [826], field [Account_Number]: Data [4210924091] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [827], field [Account_Number]: Data [3017757609] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [828], field [Account_Number]: Data [6384372444] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [829], field [Account_Number]: Data [4969722021] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [830], field [Account_Number]: Data [2139511174] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [831], field [Account_Number]: Data [4211516701] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [832], field [Account_Number]: Data [6901757409] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [833], field [Account_Number]: Data [0993214851] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [834], field [Account_Number]: Data [4530702863] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [835], field [Account_Number]: Data [1695975251] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [836], field [Account_Number]: Data [4546426054] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [837], field [Account_Number]: Data [0576837431] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [838], field [Account_Number]: Data [9654353016] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [839], field [Account_Number]: Data [2058190807] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [840], field [Account_Number]: Data [9399777235] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [841], field [Account_Number]: Data [6210672485] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [842], field [Account_Number]: Data [8450358922] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [843], field [Account_Number]: Data [6757202093] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [844], field [Account_Number]: Data [8454894047] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [845], field [Account_Number]: Data [9456381129] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [846], field [Account_Number]: Data [1867557797] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [847], field [Account_Number]: Data [9939239750] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [848], field [Account_Number]: Data [3236180021] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [849], field [Account_Number]: Data [6249931821] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [850], field [Account_Number]: Data [2790568952] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [851], field [Account_Number]: Data [9818088379] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [852], field [Account_Number]: Data [8248313085] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [853], field [Account_Number]: Data [4592183126] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [854], field [Account_Number]: Data [8277687117] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [855], field [Account_Number]: Data [0792911199] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [856], field [Account_Number]: Data [9497494238] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [857], field [Account_Number]: Data [3517129828] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [858], field [Account_Number]: Data [7337336276] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [859], field [Account_Number]: Data [8815069399] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [860], field [Account_Number]: Data [5677694231] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [861], field [Account_Number]: Data [3555419269] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [862], field [Account_Number]: Data [1009064630] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [863], field [Account_Number]: Data [2500231240] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [864], field [Account_Number]: Data [5474222599] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [865], field [Account_Number]: Data [1930747454] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [866], field [Account_Number]: Data [3173049470] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [867], field [Account_Number]: Data [3549268041] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [868], field [Account_Number]: Data [6996630517] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [869], field [Account_Number]: Data [3931104400] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [870], field [Account_Number]: Data [0784850747] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [871], field [Account_Number]: Data [0836184955] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [872], field [Account_Number]: Data [8832380706] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [873], field [Account_Number]: Data [0935866957] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [874], field [Account_Number]: Data [7155241172] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [875], field [Account_Number]: Data [1636780830] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [876], field [Account_Number]: Data [4089765196] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [877], field [Account_Number]: Data [4081168156] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [878], field [Account_Number]: Data [9858513976] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [879], field [Account_Number]: Data [7971703686] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [880], field [Account_Number]: Data [9336659456] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [881], field [Account_Number]: Data [8126244720] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [882], field [Account_Number]: Data [7419757712] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [883], field [Account_Number]: Data [4451261910] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [884], field [Account_Number]: Data [5281507249] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [885], field [Account_Number]: Data [6867210708] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [886], field [Account_Number]: Data [3284763708] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [887], field [Account_Number]: Data [1157824293] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [888], field [Account_Number]: Data [6541209669] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [929], field [Customer_First_Name]: Data [Jacquenetta] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [984], field [Customer_Last_Name]: Data [Stainton - Skinn] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [889], field [Account_Number]: Data [4224320711] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [890], field [Account_Number]: Data [6317802440] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [891], field [Account_Number]: Data [0795718764] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [892], field [Account_Number]: Data [1813415293] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [893], field [Account_Number]: Data [5655220539] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [894], field [Account_Number]: Data [9178911710] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [895], field [Account_Number]: Data [4452852114] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [896], field [Account_Number]: Data [1746363908] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [897], field [Account_Number]: Data [4420248319] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [898], field [Account_Number]: Data [1395118558] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [899], field [Account_Number]: Data [4846308006] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [900], field [Account_Number]: Data [4754846486] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [901], field [Account_Number]: Data [5938775663] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [902], field [Account_Number]: Data [6166864159] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [903], field [Account_Number]: Data [5859971583] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [904], field [Account_Number]: Data [9089348824] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [905], field [Account_Number]: Data [8837012128] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [906], field [Account_Number]: Data [2566237859] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [907], field [Account_Number]: Data [3958606601] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [908], field [Account_Number]: Data [1951574400] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [909], field [Account_Number]: Data [2489749005] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [910], field [Account_Number]: Data [1698854277] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [911], field [Account_Number]: Data [8775907836] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [912], field [Account_Number]: Data [4792265606] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [913], field [Account_Number]: Data [7183475247] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [914], field [Account_Number]: Data [1505039231] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [915], field [Account_Number]: Data [3621283099] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [916], field [Account_Number]: Data [7316620234] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [917], field [Account_Number]: Data [3221598467] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [918], field [Account_Number]: Data [7673405555] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [919], field [Account_Number]: Data [0562532196] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [920], field [Account_Number]: Data [0015008878] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [921], field [Account_Number]: Data [3225255971] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [922], field [Account_Number]: Data [7619337482] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [923], field [Account_Number]: Data [7289797213] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [924], field [Account_Number]: Data [4300792941] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [925], field [Account_Number]: Data [9478700715] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [926], field [Account_Number]: Data [6784604822] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [927], field [Account_Number]: Data [3007021197] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [928], field [Account_Number]: Data [9924109120] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [929], field [Account_Number]: Data [1341893324] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [930], field [Account_Number]: Data [4644748269] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [931], field [Account_Number]: Data [6712716233] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [932], field [Account_Number]: Data [5417327832] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [933], field [Account_Number]: Data [5574913887] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [934], field [Account_Number]: Data [4313472444] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [935], field [Account_Number]: Data [9831241665] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [936], field [Account_Number]: Data [5029308237] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [937], field [Account_Number]: Data [9981039047] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [938], field [Account_Number]: Data [6589929297] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [939], field [Account_Number]: Data [1141703173] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [940], field [Account_Number]: Data [1543699294] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [941], field [Account_Number]: Data [1387690787] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [942], field [Account_Number]: Data [9815701347] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [943], field [Account_Number]: Data [1201922593] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [944], field [Account_Number]: Data [4603861508] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [945], field [Account_Number]: Data [7232601956] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [946], field [Account_Number]: Data [2174381907] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [947], field [Account_Number]: Data [2334038326] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [948], field [Account_Number]: Data [2242429558] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [949], field [Account_Number]: Data [6883044728] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [950], field [Account_Number]: Data [0956829082] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [951], field [Account_Number]: Data [9603697796] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [952], field [Account_Number]: Data [0141804556] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [953], field [Account_Number]: Data [6507844845] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [954], field [Account_Number]: Data [8029585764] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [955], field [Account_Number]: Data [7440051696] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [956], field [Account_Number]: Data [3039038435] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [957], field [Account_Number]: Data [5089596883] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [958], field [Account_Number]: Data [8103471364] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [959], field [Account_Number]: Data [0712600604] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [960], field [Account_Number]: Data [0359106498] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [961], field [Account_Number]: Data [4402512417] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [962], field [Account_Number]: Data [1901788741] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [963], field [Account_Number]: Data [6170835702] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [964], field [Account_Number]: Data [2112607405] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [965], field [Account_Number]: Data [9893529301] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [966], field [Account_Number]: Data [3608138455] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [967], field [Account_Number]: Data [3855785929] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [968], field [Account_Number]: Data [2771546574] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [969], field [Account_Number]: Data [5789001580] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [970], field [Account_Number]: Data [8266565066] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [971], field [Account_Number]: Data [5851386541] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [972], field [Account_Number]: Data [0204254523] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [973], field [Account_Number]: Data [5309513000] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [974], field [Account_Number]: Data [9358537035] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [975], field [Account_Number]: Data [0145302407] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [976], field [Account_Number]: Data [1407320122] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [977], field [Account_Number]: Data [8053772528] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [978], field [Account_Number]: Data [6115175925] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [979], field [Account_Number]: Data [8215578918] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [980], field [Account_Number]: Data [3816395791] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [981], field [Account_Number]: Data [9696856733] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [982], field [Account_Number]: Data [7433460527] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [983], field [Account_Number]: Data [2792498609] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [984], field [Account_Number]: Data [2947113594] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [985], field [Account_Number]: Data [1874223181] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [986], field [Account_Number]: Data [2474618139] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [987], field [Account_Number]: Data [5684576923] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [988], field [Account_Number]: Data [4037691000] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [989], field [Account_Number]: Data [0767555058] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [990], field [Account_Number]: Data [6582219618] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [991], field [Account_Number]: Data [3704118796] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [992], field [Account_Number]: Data [4560586748] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [993], field [Account_Number]: Data [8887583773] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [994], field [Account_Number]: Data [4046392754] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [995], field [Account_Number]: Data [1043137424] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [996], field [Account_Number]: Data [5899715979] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [997], field [Account_Number]: Data [2313407071] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [998], field [Account_Number]: Data [2467178064] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [999], field [Account_Number]: Data [9639107905] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : FR_3015 : Warning! Row [1000], field [Account_Number]: Data [2991859377] was truncated.
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16019 : Read [1000] rows, read [0] error rows for source table [Bank_Data_file_1] instance name [Bank_Data_file_1]
+2025-03-06 14:18:56 : INFO : (2352 | READER_1_1_1) : (IS | IS) : node01 : BLKR_16008 : Reader run completed.
+2025-03-06 14:18:57 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8168 : End loading table [CUSTOMER] at: Thu Mar 06 14:18:57 2025
+2025-03-06 14:18:57 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8141 : 
+Commit on end-of-data  Thu Mar 06 14:18:57 2025
+===================================================
+
+WRT_8036 Target: CUSTOMER (Instance Name: [CUSTOMER])
+WRT_8038 Inserted rows - Requested: 1000       Applied: 1000       Rejected: 0          Affected: 1000      
+
+2025-03-06 14:18:57 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8035 : Load complete time: Thu Mar 06 14:18:57 2025
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: CUSTOMER (Instance Name: [CUSTOMER])
+WRT_8038 Inserted rows - Requested: 1000       Applied: 1000       Rejected: 0          Affected: 1000      
+
+
+2025-03-06 14:18:57 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2025-03-06 14:18:57 : INFO : (2352 | WRITER_1_*_1) : (IS | IS) : node01 : WRT_8006 : Writer run completed.
+2025-03-06 14:18:57 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Bank_Data_file_1] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [CUSTOMER] has completed.
+	Total Run Time = [0.978994] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+
+2025-03-06 14:18:58 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Thu Mar 06 14:18:58 2025)
+2025-03-06 14:18:58 : INFO : (2352 | POST-SESS) : (IS | IS) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [7].
+2025-03-06 14:18:58 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Thu Mar 06 14:18:58 2025)
+2025-03-06 14:18:58 : INFO : (2352 | MAPPING) : (IS | IS) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2025-03-06 14:18:58 : INFO : (2352 | MANAGER) : (IS | IS) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2025-03-06 14:18:58 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : PETL_24012 : Session run completed successfully.
+2025-03-06 14:18:58 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2025-03-06 14:18:58 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6252 : Source Load Summary.
+2025-03-06 14:18:58 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [SQ_Bank_Data_file_1] (Instance Name: [SQ_Bank_Data_file_1])
+	 Output Rows [1000], Affected Rows [1000], Applied Rows [1000], Rejected Rows [0]
+2025-03-06 14:18:58 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6253 : Target Load Summary.
+2025-03-06 14:18:58 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : CMN_1740 : Table: [CUSTOMER] (Instance Name: [CUSTOMER])
+	 Output Rows [1000], Affected Rows [1000], Applied Rows [1000], Rejected Rows [0]
+2025-03-06 14:18:58 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6023 : 
+===================================================
+
+2025-03-06 14:18:58 : INFO : (2352 | DIRECTOR) : (IS | IS) : node01 : TM_6020 : Session [s_m_q2] completed at [Thu Mar 06 14:18:58 2025].
